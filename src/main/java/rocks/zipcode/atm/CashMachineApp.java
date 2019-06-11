@@ -220,6 +220,7 @@ public class CashMachineApp extends Application {
         Button newacc = new Button("New Account");
         HBox hbBtn2 = new HBox(10);
         hbBtn2.setAlignment(Pos.BOTTOM_LEFT);
+        hbBtn2.setPrefWidth(150);
         hbBtn2.getChildren().add(newacc);
         grid.add(hbBtn2, 0, 4);
 
